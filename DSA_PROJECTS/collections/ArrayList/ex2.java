@@ -1,3 +1,5 @@
+// immutable
+
 package collections.ArrayList;
 import java.util.*;
 

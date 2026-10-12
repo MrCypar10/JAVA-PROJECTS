@@ -28,6 +28,14 @@ public class UseEmp {
         Emp e = new Emp(age,name,sal);
         System.out.println("Removed ?" +empList.remove(e));
 
+        System.out.println("Before Sorting :");
+        for(Emp x : empList) {
+            System.out.println(x);
+        }
+
+        System.out.println("After Sorting :");
+        Collections.sort(empList);
+
         for(Emp x : empList) {
             System.out.println(x);
         }

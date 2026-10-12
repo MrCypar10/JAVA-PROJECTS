@@ -1,6 +1,6 @@
 package collections.ArrayList.assignment;
 
-public class Emp {
+public class Emp implements Comparable<Emp> {
     private int age;
     private String name;
     private double sal;
@@ -20,4 +20,9 @@ public class Emp {
             return true;
         return false;
      }
+
+    @Override
+    public int compareTo(Emp o) {
+        return this.age-o.age;
+    }
 }

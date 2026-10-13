@@ -1,4 +1,4 @@
-package collections;
+package collections.ArrayList;
 import java.util.*;
 import java.util.List;
 // creating objects of List Child
